@@ -1,0 +1,91 @@
+*,
+*::after,
+::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+h1{
+    text-align: center;
+    padding-bottom: 25px;
+    font-size: 30pt;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+body {
+    background-image: url(Images/Question-mark-2048x1077.jpeg);
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding-right: 200px;
+    padding-left: 200px;
+    padding-top: 25px;
+    padding-bottom: 200px; 
+}
+
+#true-button:hover {
+    background-color: rgb(135, 202, 34);
+    transition: 0.5s
+}
+
+#false-button:hover {
+    background-color: pink;
+    transition: 0.5s
+}
+
+#replay-button:hover {
+    background-color: grey;
+    transition: 0.5s
+}
+
+#exit-button:hover {
+    background-color: grey;
+    transition: 0.5s
+}
+
+#true-button {
+    color: black;
+    background-color: green;
+    font-family: fantasy;
+    font-size: xx-large;
+    margin-right: 6px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+#false-button {
+    color: black;
+    background-color: red;
+    font-family: fantasy;
+    font-size: xx-large;
+    margin-right: 6px;
+    width: 400px;
+    border-radius: 15px;
+}
+
+#replay-button {
+    color: white;
+    background-color: black;
+    font-family: fantasy;
+    font-size: xx-large;
+    margin-right: 6px;
+    width: 400px;
+    border-radius: 15px;
+   
+}
+#exit-button {
+    color: white;
+    background-color: black;
+    font-family: fantasy;
+    font-size: xx-large;
+    margin-right: 6px;
+    width: 400px;
+    border-radius: 15px;
+}
+.flex-parent {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}

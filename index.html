@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trivia Time</title>
+    <link rel="stylesheet" href="trivia-styles.css">
+</head>
+
+<body>
+    <div id="questions-container">
+        <h1 id="question">loading...</h1>
+        <div class="flex-parent jc-center">
+                <button id="true-button" onclick="handleTrue()">True</button>
+                <button id="false-button" onclick="handleFalse()" >False</button>
+        </div>
+            <div class="flex-parent jc-center">
+                <button id="replay-button" onclick="replay()" style="opacity:0%;">Play Again?</button>
+                <button id="exit-button" onclick="window.close()" style="opacity:0%;">Exit?</button>
+            </div>
+            
+    </div>
+
+    <script type="text/javascript" src="questions.json"></script>
+    <script type="text/javascript" src="trivia-script.js"></script>
+</body>
+
+</html>
